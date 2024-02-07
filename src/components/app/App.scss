@@ -1,0 +1,64 @@
+.app {
+    background-color: #FCFCFC;
+}
+
+.light-mode .app {
+    background-color: #fcfcfc;
+    color: #000000;
+}
+
+.dark-mode {
+    background-color: #0e1219;
+}
+
+.dark-mode .app {
+    background-color: #0e1219;
+    color: #ffffff;
+
+    .Header {
+        background-color: #0e1219;
+    }
+
+    .Header__navbar {
+        span {
+            color: #0dd0ba;
+        }
+
+        input {
+            background-color: #183a5d;
+            border: 1px solid #183a5d;
+            color: #fff;
+        }
+    }
+
+    .banner__subheader {
+        background-color: #0e1219;
+        box-shadow: 0 22px 59px rgba(42, 134, 229, 0.07);
+    }
+
+    .Info__card {
+        background-color: #202434;
+        box-shadow: 0 3px 16px rgba(0, 0, 0, 0.55);
+    }
+
+    .footer__wrapper__content__form {
+        background-color: #202434;
+
+        span {
+            color: #fff;
+        }
+
+        button {
+            color: #fff;
+        }
+    }
+
+    .inactive {
+        background-color: #183a5d;
+        color: #fff;
+    }
+
+    .menu {
+        background-color: #0e1219;
+    }
+}

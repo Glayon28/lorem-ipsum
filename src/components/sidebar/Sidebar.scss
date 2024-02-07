@@ -1,0 +1,46 @@
+.Sidebar {
+    width: 40px;
+    position: fixed;
+    top: 35%;
+    left: 0;
+    z-index: 100;
+    transform: translateY(-50%);
+
+
+    &__social {
+        button {
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+        }
+
+        &__facebook {
+            background: #3a579a;
+            border-radius: 0 4px 0 0;
+
+        }
+
+        &__telegram {
+            background: #24a2e0;
+        }
+
+        &__twitter {
+            background: #00abf0;
+        }
+
+        &__pinterest {
+            background: #cd1c1f;
+        }
+
+        &__reddit {
+            background: #fc461e;
+        }
+
+        &__like {
+            background: #f95149;
+            border-radius: 0 0 4px 0;
+        }
+    }
+}
